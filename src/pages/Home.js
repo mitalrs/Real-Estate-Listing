@@ -4,11 +4,13 @@ import AppBar from '../Component/AppBar';
 function Home() {
   return (
     <>
-    <div>
+    <div className='blackBox'>
     <AppBar/>
     </div>
-    
-    <div></div>
+
+    <div className='whiteBox'>
+        
+    </div>
     </>
   )
 }
